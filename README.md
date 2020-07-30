@@ -8,7 +8,7 @@ The core analysis engine being used is [Presidio](https://github.com/microsoft/p
 
 ## Running the script
 
-Set up a Python environment. The steps I tool were to create an Ubuntu 18.04 Azure VM:
+Set up a Python environment. Presidio requires Python >= 3.6. The steps I tool were to create an Ubuntu 18.04 VM from the Azure marketplace and then:
 
 - SSH into the VM:
 
@@ -26,7 +26,7 @@ Set up a Python environment. The steps I tool were to create an Ubuntu 18.04 Azu
 
     `pip3 install presidio_analyzer`
 
-- Install the analyser dependcy on ML Model web_lg:
+- Install the analyser dependency on ML Model web_lg:
 
     `python3 -m spacy download en_core_web_lg`
 
@@ -36,4 +36,4 @@ Set up a Python environment. The steps I tool were to create an Ubuntu 18.04 Azu
 
 - Test the script (with a word document) e.g.:
 
-    `python3 foianalyser wordoc.docx victim`
+    `python3 foianalyser wordoc.docx profilename`
