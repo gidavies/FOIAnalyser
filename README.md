@@ -22,7 +22,7 @@ Set up a Python environment. Presidio requires Python >= 3.6. The steps I took w
 
     `pip3 install python-docx`
 
-- Install the Presidio analyser:
+- Install the [presidio analyser](https://github.com/microsoft/presidio/blob/master/docs/deploy.md#install-presidio-analyzer-as-a-python-package):
 
     `pip3 install presidio_analyzer`
 
