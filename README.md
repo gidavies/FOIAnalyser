@@ -10,30 +10,30 @@ The core analysis engine being used is [Presidio](https://github.com/microsoft/p
 
 Set up a Python environment. The steps I tool were to create an Ubuntu 18.04 Azure VM:
 
-- SSH into the VM
+- SSH into the VM:
 
-'ssh -i keyfile.pem username@ipaddress'
+    `ssh -i keyfile.pem username@ipaddress`
 
-- Install PIP
+- Install PIP:
 
-'sudo apt install python3-pip'
+    `sudo apt install python3-pip`
 
-- Install Python-docx for Word document manipulation
+- Install [python-docx] (https://python-docx.readthedocs.io/en/latest/) for working with Word documents:
 
-'pip3 install python-docx'
+    `pip3 install python-docx`
 
-- Install the Presidio analyser
+- Install the Presidio analyser:
 
-'pip3 install presidio_analyzer'
+    `pip3 install presidio_analyzer`
 
-- Install the analyser dependcy on ML Model web_lg
+- Install the analyser dependcy on ML Model web_lg:
 
-python3 -m spacy download en_core_web_lg
+    `python3 -m spacy download en_core_web_lg`
 
-- Upload the script e.g.
+- Upload the script e.g.:
 
-scp -i keyfile.pem ./foianalyser.py username@ipaddress:/path/to/dir
+    `scp -i keyfile.pem ./foianalyser.py username@ipaddress:/path/to/dir`
 
-- Test the script (with a word document) e.g.
+- Test the script (with a word document) e.g.:
 
-python3 foianalyser wordoc.docx victim
+    `python3 foianalyser wordoc.docx victim`
