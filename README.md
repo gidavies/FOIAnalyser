@@ -8,7 +8,7 @@ The core analysis engine being used is [Presidio](https://github.com/microsoft/p
 
 ## Running the script
 
-Set up a Python environment. Presidio requires Python >= 3.6. The steps I tool were to create an Ubuntu 18.04 VM from the Azure marketplace and then:
+Set up a Python environment. Presidio requires Python >= 3.6. The steps I took were to create an Ubuntu 18.04 VM from the Azure marketplace and then:
 
 - SSH into the VM:
 
