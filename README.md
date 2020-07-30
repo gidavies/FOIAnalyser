@@ -18,7 +18,7 @@ Set up a Python environment. Presidio requires Python >= 3.6. The steps I took w
 
     `sudo apt install python3-pip`
 
-- Install [python-docx] (https://python-docx.readthedocs.io/en/latest/) for working with Word documents:
+- Install [python-docx](https://python-docx.readthedocs.io/en/latest/) for working with Word documents:
 
     `pip3 install python-docx`
 
